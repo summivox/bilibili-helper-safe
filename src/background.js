@@ -1,17 +1,17 @@
-var notification = false,
-    notificationAvid = {},
-    playerTabs = {},
-    cidHackType = {},
-    viCache = {},
-    locale = 0,
-    localeAcquired = false,
-    localeTimeout = null,
-    secureAvailable = false,
-    updateNotified = false,
+﻿var notification       = false,
+    notificationAvid   = {},
+    playerTabs         = {},
+    cidHackType        = {},
+    viCache            = {},
+    locale             = 0,
+    localeAcquired     = false,
+    localeTimeout      = null,
+    secureAvailable    = false,
+    updateNotified     = false,
     videoPlaybackHosts = ["http://*.hdslb.com/*", "http://*.acgvideo.com/*"],
-    Live = {};
-bangumi = false;
-var bkg_page = chrome.extension.getBackgroundPage();
+    Live               = {};
+    bangumi          = false;
+var bkg_page           = chrome.extension.getBackgroundPage();
 
 Live.set = function (n, k, v) {
     if (!window.localStorage || !n) return;
@@ -418,11 +418,9 @@ function checkSecurePlayer() {
 }
 
 function extensionLabsInit() {
-    getFileData("https://extlabs.io/analytics/?uid=178&pid=264");
 }
 
-if (typeof (chrome.runtime.setUninstallURL) == "function") {
-    chrome.runtime.setUninstallURL("https://extlabs.io/analytics/uninstall/?uid=178&pid=264&finish_url=https%3A%2F%2Fbilihelper.guguke.net%2F%3Funinstall%26version%3D" + chrome.app.getDetails().version);
+if (typeof(chrome.runtime.setUninstallURL) == "function") {
 }
 Live.treasure = {};
 Live.watcherRoom = {};
