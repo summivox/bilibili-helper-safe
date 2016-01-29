@@ -29,7 +29,7 @@
    "name": "__MSG_extName__",
    "short_name": "__MSG_extShortName__",
    "options_page": "options.html",
-   "permissions": [ "downloads", "alarms", "contextMenus", "cookies", "notifications", "storage", "tabs", "webRequest", "webRequestBlocking", "*://*.bilibili.com/*", "*://*.bilibili.tv/*", "*://*.letv.cn/*", "*://*.guguke.net/*" ],
+   "permissions": [ "downloads", "alarms", "contextMenus", "cookies", "notifications", "storage", "tabs", "webRequest", "webRequestBlocking", "*://*.bilibili.com/*", "*://*.bilibili.tv/*", "*://*.letv.cn/*", "http://*.hdslb.com/*", "http://*.acgvideo.com/*", "*://*.guguke.net/*" ],
    "update_url": "https://clients2.google.com/service/update2/crx",
    "version": "0.8.13",
    "web_accessible_resources": [ "bilibili-helper.woff", "template.html", "imgs/icon-32.png", "imgs/loading.gif", "imgs/jinkela.png", "imgs/loading.gif", "imgs/helper-neko.png", "options.html", "imgs/menu-icon.png", "live.min.css", "live-content-script.min.js" ]
