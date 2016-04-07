@@ -807,6 +807,7 @@ function getLocale() {
 }
 
 function checkVersion() {
+    return;
     var versionNotify = getOption("versionNotify");
     versionNotify == 'on' &&
         getFileData("https://bilihelper.guguke.net/version.json?v=" + encodeURIComponent(chrome.app.getDetails().version), function (result) {
