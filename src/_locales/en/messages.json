@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "Bilibili Helper: Bilibili.com Auxiliary",
+    "message": "Bilibili Helper (Safe): Bilibili.com Auxiliary",
     "description": "Extension: Name"
   },
   "extShortName": {
-    "message": "Bilibili Helper",
+    "message": "Bilibili Helper (Safe)",
     "description": "Extension: Short Name"
   },
   "extDescription": {

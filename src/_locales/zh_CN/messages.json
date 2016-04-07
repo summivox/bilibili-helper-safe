@@ -1,10 +1,10 @@
 {
   "extName": {
-    "message": "哔哩哔哩助手：bilibili.com 综合辅助扩展",
+    "message": "哔哩哔哩助手（低权限）：bilibili.com 综合辅助扩展",
     "description": "Extension: Name"
   },
   "extShortName": {
-    "message": "哔哩哔哩助手",
+    "message": "哔哩哔哩助手（低权限）",
     "description": "Extension: Short Name"
   },
   "extDescription": {
